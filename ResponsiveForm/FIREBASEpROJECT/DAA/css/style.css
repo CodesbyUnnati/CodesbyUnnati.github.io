@@ -7,7 +7,7 @@
 /*OVERLAY (BLACK SHADOW OVER WHOLE IMAGE)*/
 header{
 
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../wo.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../https://github.com/CodesbyUnnati/CodesbyUnnati.github.io/blob/gh-pages/ResponsiveForm/FIREBASEpROJECT/DAA/wo.jpg);
 	/* WRITE ../ AND DIRECT THE IMAGE NAME*/
       background-image: url(../wo.jpg);
       height: 100vh;
