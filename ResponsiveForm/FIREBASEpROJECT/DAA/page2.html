@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/page2">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" integrity="sha256-a2tobsqlbgLsWs7ZVUGgP5IvWZsx8bTNQpzsqCSm5mk=" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="portFolio.css">
+
+  <h1  id ="header" class="animated pulse infinite">Syllabus</h1>
+  <img src="C:\Users\Unnati\Desktop\ResponsiveForm\FIREBASEpROJECT\DAA\undraw\undraw_web_search_eetr.svg" align="right" class="image1">
+<style>
+  #header{
+      margin: 10px;
+      padding: 0;
+      color: #000;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 5em;
+  text-align: center;
+  }
+  .image1{
+  margin-right: 290px;
+  height: 800px;
+  width: 800px;
+  left: 0px;
+  margin-left: 10px;
+
+  }
+  
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin:80px;
+ transform: translateY(50px);
+ transform: translateX(-80px);
+}
+
+#customers td, #customers th {
+  border: 2px solid #ddd;
+  padding: 12px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+  background-color: #FF9999;
+  color: #000;
+}
+.animation-area{
+  background: #D1EEEA;
+  width: 100%;
+  height: 100vh;
+}
+.box-area{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.box-area li{
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 25px;
+  height: 25px;
+  background:rgba(71, 56, 45, 0.2);
+  animation: animate 20s linear infinite;
+  bottom: -150px;
+}
+.box-area li:nth-child(1){
+  left: 86%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+.box-area li:nth-child(2){
+  left: 12%;
+  width: 30px;
+  height: 30px;
+  animation-delay: 1.5s;
+  animation-duration: 10s;
+}
+.box-area li:nth-child(3){
+  left: 70%;
+  width: 100px;
+  height: 100px;
+  animation-delay: 0s;
+  animation-duration: 5.5s;
+}
+.box-area li:nth-child(4){
+  left: 42%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 15s;
+}
+.box-area li:nth-child(5){
+  left: 65%;
+  width: 40px;
+  height: 40px;
+  animation-delay: 0s;
+}
+.box-area li:nth-child(6){
+  left: 15%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3.5s;
+}
+@keyframes animate{
+  0%{
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(-800px) rotate(360deg);
+    opacity: 1;
+  }
+}}
+</style>
+</head>
+
+<body bgcolor="#D1EEEA">
+  <div class="animation-area">
+    <ul class="box-area">
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+           <li> </li>
+       </ul>
+   </div>
+
+<table id="customers">
+  <tr>
+    <th>UNIT-1</th>
+    <th>UNIT-2</th>
+    <th>UNIT-3</th>
+    <th>UNIT-4</th>
+    <th>UNIT-5</th>
+  </tr>
+  <tr>
+    <td>Algorithm Introduction</td>
+    <td>Divide and Conquer</td>
+    <td>Greedy & Dynamic programming</td>
+    <td>Backtracking-N Queens</td>
+    <td>Randomization & Approximation Algorithm</td>
+  </tr>
+  <tr>
+    <td>Line Count,Operation Count</td>
+    <td>Maximum Subarray Problem</td>
+    <td>Huffman Coding</td>
+    <td>Branch & Bound</td>
+    <td>Randomized Quick Sort</td>
+  </tr>
+  <tr>
+    <td>Time Complexity Analysis</td>
+    <td>Binary Search</td>
+    <td>Brute Force and Huffman encoding</td>
+    <td>Graphs</td>
+    <td>String Matching Algorithm</td>
+  </tr>
+  <tr>
+    <td>Insertion Sort</td>
+    <td>Merge Sort</td>
+    <td>Knapsack Problem</td>
+    <td>Sum of Subsets</td>
+    <td>Rabin Karp Algorithm</td>
+  </tr>
+  <tr>
+    <td>Bubble Sort</td>
+    <td>Quick Sort</td>
+    <td>Tree Traversals</td>
+    <td>Travelling Salesman Problem</td>
+    <td>Vertex Covering</td>
+  </tr>
+  <tr>
+    <td>Recurrence Relations</td>
+    <td>Strassen's Matrix</td>
+    <td>Minimum Spanning Tree</td>
+    <td>Depth & Breadth First Search</td>
+    <td>P type problems</td>
+  </tr>
+  <tr>
+    <td>Substitution Method</td>
+    <td>Master Theorem</td>
+    <td>Matrix Chain Multiplication</td>
+    <td>Shotest Path Introduction</td>
+    <td>Hamiltonian Cycle Problem</td>
+  </tr>
+  <tr>
+    <td>Recursion Tree</td>
+    <td>Convex Hull</td>
+    <td>Longest Commen Subsequence</td>
+    <td>Floyd-Warshall Introduction</td>
+    <td>NP Complete Problem</td>
+  </tr>
+  <tr>
+    <td>-----</td>
+    <td>Closest pair Problem</td>
+    <td>Optimal Binary Search Tree</td>
+    <td>Hamiltonian Circuit</td>
+    <td>Satisfiability Problem</td>
+  </tr>
+ 
+</table>
+
+</body>
+</html>
